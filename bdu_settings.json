@@ -1,0 +1,77 @@
+{
+  "controls": [
+    {
+      "sec": "STEER",
+      "key": "FF_GAIN",
+      "val": "1"
+    },
+    {
+      "sec": "STEER",
+      "key": "FILTER_FF",
+      "val": "0"
+    },
+    {
+      "sec": "FF_TWEAKS",
+      "key": "MIN_FF",
+      "val": "0"
+    },
+    {
+      "sec": "FF_TWEAKS",
+      "key": "CENTER_BOOST_GAIN",
+      "val": "0"
+    },
+    {
+      "sec": "FF_TWEAKS",
+      "key": "CENTER_BOOST_RANGE",
+      "val": "0"
+    },
+    {
+      "sec": "FF_ENHANCEMENT",
+      "key": "CURBS",
+      "val": "0.4"
+    },
+    {
+      "sec": "FF_ENHANCEMENT",
+      "key": "ROAD",
+      "val": "0.25"
+    },
+    {
+      "sec": "FF_ENHANCEMENT",
+      "key": "SLIPS",
+      "val": "0"
+    },
+    {
+      "sec": "FF_ENHANCEMENT",
+      "key": "ABS",
+      "val": "0"
+    },
+    {
+      "sec": "FF_ENHANCEMENT_2",
+      "key": "UNDERSTEER",
+      "val": "0"
+    },
+    {
+      "sec": "FF_SKIP_STEPS",
+      "key": "VALUE",
+      "val": "0"
+    }
+  ],
+  "postprocess": [
+    {
+      "sec": "HEADER",
+      "key": "ENABLED",
+      "val": "1"
+    },
+    {
+      "sec": "HEADER",
+      "key": "TYPE",
+      "val": "LUT"
+    },
+    {
+      "sec": "LUT",
+      "key": "CURVE",
+      "val": "drift1.lut"
+    }
+  ],
+  "lut": "drift1.lut"
+}
